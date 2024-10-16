@@ -7,8 +7,8 @@ import { catchError, Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class BaseApiService {
-  //public urlService: string = 'http://172.18.0.1:9090/api/proyecto/';
-  public urlService: string = "http://localhost:9090/api/proyecto/"
+  public urlService: string = 'http://172.18.0.1:9090/api/proyecto/';
+  //public urlService: string = "http://localhost:9090/api/proyecto/"
 
   constructor(public http: HttpClient, public router: Router) {}
 
